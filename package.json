@@ -1,0 +1,14 @@
+{
+  "name": "sites",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=16",
+    "npm": "~8"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
