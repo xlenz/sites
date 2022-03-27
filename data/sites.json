@@ -1,5 +1,8 @@
 [
-  { "page": "https://airport-rzhevka.ru/obzor-poiskovyx-sistem-aviabiletov/" },
-  { "page": "https://www.aviasales.ru/search?origin_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&origin_iata=MOW&destination_name=%D0%9D%D0%B8%D1%86%D1%86%D0%B0&destination_iata=NCE&depart_date=2022-03-27&return_date=2022-04-03&with_request=true&adults=1&children=0&infants=0&trip_class=0&locale=ru&one_way=false&currency=rub&ct_guests=1+%D0%BF%D0%B0%D1%81%D1%81%D0%B0%D0%B6%D0%B8%D1%80&ct_rooms=1&marker=48286.Zza242d3759bb1463984c74093-48286&__cf_chl_tk=QhY2qFMUewbg3Lz3YnI33vBPlawjItrQIZ_6AskZFW8-1647783546-0-gaNycGzNCOU" },
-  { "page": "https://www.cse-rus.ru/" }
+  { "page": "https://www.delivery-club.ru/" },
+  { "page": "https://express.dhl.ru/" },
+  { "page": "https://dostavista.ru/" },
+  { "page": "https://www.atol.ru/" },
+  { "page": "https://term.atol.ru/RDWeb/webclient/index.html" },
+  { "page": "https://atributic.ru/futbolka-s-bukvoj-z-poddergim-nashih" }
 ]
