@@ -1,16 +1,11 @@
 [
-  { "method": "get", "ip": "91.232.230.50", "page": "https://qiwi.com" },
-  { "method": "get", "ip": "91.232.230.126", "page": "https://qiwi.com" },
-  { "method": "get", "ip": "91.232.230.139", "page": "https://qiwi.com" },
-  { "method": "get", "ip": "91.232.230.40", "page": "https://checkout.qiwi.com" },
-  { "method": "get", "ip": "91.232.230.164", "page": "https://checkout.qiwi.com" },
-  { "method": "get", "ip": "91.232.230.180", "page": "https://checkout.qiwi.com" },
-  { "method": "get", "ip": "91.232.230.135", "page": "https://my.qiwi.com" },
-  { "method": "get", "ip": "91.232.230.165", "page": "https://oplata.qiwi.com" },
-  { "method": "get", "ip": "91.232.230.202", "page": "https://p2p.qiwi.com" },
-  { "method": "get", "ip": "79.142.16.15", "page": "https://mail.qiwi.com" },
-  { "method": "get", "ip": "79.142.16.20", "page": "https://rubm.qiwi.com" },
-  { "method": "get", "ip": "79.142.16.48", "page": "https://api-bonus.qiwi.com" },
-  { "method": "get", "ip": "79.142.16.78", "page": "https://sinap-dl.qiwi.com" },
-  { "method": "get", "ip": "79.142.16.80", "page": "https://betting.qiwi.com" }
+  { "method": "dns", "host": "195.208.5.1", "port": 53 },
+  { "method": "dns", "host": "2a02:6b8::feed:ff", "port": 53 },
+  { "method": "dns", "host": "2a02:6b8:0:1::feed:a11", "port": 53 },
+  { "method": "dns", "host": "82.208.99.185", "port": 53 },
+  { "method": "dns", "host": "89.235.136.61", "port": 53 },
+  { "method": "dns", "host": "77.88.8.3", "port": 53 },
+  { "method": "dns", "host": "77.88.8.7", "port": 53 },
+  { "method": "dns", "host": "77.88.8.8", "port": 53 },
+  { "method": "dns", "host": "77.88.8.2", "port": 53 }
 ]
