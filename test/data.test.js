@@ -1,4 +1,8 @@
 test('sites', () => {
   const sites = require('../data/sites.json')
-  sites.forEach((site) => expect(site).toEqual({ page: expect.stringMatching(/^https?:\/\//) }))
+  const matcher = { method: 'get', page: expect.stringMatching(/^https?:\/\//) }
+  sites
+    .filter((site) => typeof site.ip === 'string')
+    .forEach((site) => expect(site).toEqual({ ...matcher, ip: expect.stringMatching(/^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$/) }))
+  sites.filter((site) => typeof site.ip === 'undefined').forEach((site) => expect(site).toEqual(matcher))
 })
