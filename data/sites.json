@@ -1,3 +1,5 @@
 [
-
+  { "method": "dns", "host": "195.230.71.229", "port": 53 },
+  { "method": "dns", "host": "188.254.16.20", "port": 53 },
+  { "method": "dns", "host": "195.80.224.64", "port": 53 }
 ]
