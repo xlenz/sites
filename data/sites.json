@@ -1,9 +1,3 @@
 [
-  { "method": "dns", "host": "195.208.5.1", "port": 53 },
-  { "method": "dns", "host": "82.208.99.185", "port": 53 },
-  { "method": "dns", "host": "89.235.136.61", "port": 53 },
-  { "method": "dns", "host": "195.88.154.1", "port": 53 },
-  { "method": "dns", "host": "62.76.76.62", "port": 53 },
-  { "method": "dns", "host": "176.103.130.130", "port": 53 },
-  { "method": "dns", "host": "193.58.251.251", "port": 53 }
+
 ]
