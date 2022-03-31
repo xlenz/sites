@@ -1,7 +1,5 @@
 [
-  { "method": "get", "page": "https://www.mum-net.ru/proekti/", "useBrowser": true },
-  { "method": "get", "page": "http://www.mum-net.ru/" },
-  { "method": "dns", "host": "195.230.71.229", "port": 53 },
-  { "method": "dns", "host": "188.254.16.20", "port": 53 },
-  { "method": "dns", "host": "195.80.224.64", "port": 53 }
+  { "method": "get", "page": "https://gosuslugi.ru", "useBrowser": true },
+  { "method": "dns", "host": "213.59.253.4", "port": 53 },
+  { "method": "dns", "host": "213.59.255.175", "port": 53 }
 ]
