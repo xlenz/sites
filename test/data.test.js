@@ -3,11 +3,22 @@ test('sites', () => {
   const matcher = { method: 'get', page: expect.stringMatching(/^https?:\/\//) }
 
   sites
-    .filter((site) => site.method === 'get' && typeof site.ip === 'string')
-    .forEach((site) => expect(site).toEqual({ ...matcher, ip: expect.stringMatching(/^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$/) }))
+    .filter((x) => x.method === 'get' && typeof x.ip === 'string')
+    .forEach((x) => expect(x).toEqual({ ...matcher, ip: expect.stringMatching(/^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$/) }))
 
-  sites.filter((site) => site.method === 'get' && typeof site.ip === 'undefined' && typeof site.useBrowser === 'undefined').forEach((site) => expect(site).toEqual(matcher))
-  sites.filter((site) => site.method === 'get' && typeof site.ip === 'undefined' && typeof site.useBrowser === 'boolean').forEach((site) => expect(site).toEqual({ ...matcher, useBrowser: expect.any(Boolean) }))
+  sites.filter((x) => x.method === 'get' && typeof x.ip === 'undefined' && typeof x.useBrowser === 'undefined').forEach((x) => expect(x).toEqual(matcher))
+  sites
+    .filter((x) => x.method === 'get' && typeof x.ip === 'undefined' && typeof x.useBrowser === 'boolean')
+    .forEach((x) => expect(x).toEqual({ ...matcher, useBrowser: expect.any(Boolean) }))
 
-  sites.filter((site) => site.method === 'dns').forEach((site) => expect(site).toEqual({ method: 'dns', host: expect.any(String), port: expect.any(Number) }))
+  sites
+    .filter((x) => x.method === 'dns' && typeof x.targets === 'undefined')
+    .forEach((x) => expect(x).toEqual({ method: 'dns', host: expect.any(String), port: expect.any(Number) }))
+
+  sites
+    .filter((x) => x.method === 'dns' && typeof x.targets === 'undefined')
+    .forEach((x) => {
+      expect(x).toEqual({ method: 'dns', host: expect.any(String), port: expect.any(Number), targets: expect.any(Array) })
+      x.targets.forEach((t) => expect(typeof t).toEqual('string'))
+    })
 })
