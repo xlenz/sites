@@ -1,6 +1,7 @@
 [
   { "method": "get", "page": "https://gosuslugi.ru", "useBrowser": true },
   { "method": "get", "page": "https://esia.gosuslugi.ru/login/", "useBrowser": true },
+  { "method": "get", "page": "https://lenta.ru", "useBrowser": true },
   {
     "method": "dns",
     "host": "213.59.253.4",
