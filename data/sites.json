@@ -2,8 +2,11 @@
   { "method": "get", "page": "https://gosuslugi.ru", "useBrowser": true },
   { "method": "get", "page": "https://esia.gosuslugi.ru/login/", "useBrowser": true },
   { "method": "get", "page": "https://mercury-vetrf-ru.ru", "useBrowser": true },
-  { "method": "get", "page": "https://ugra-tv.ru/", "useBrowser": true },
-  { "method": "get", "page": "https://lenta.ru", "useBrowser": true },
+  { "method": "get", "page": "https://gls.store", "useBrowser": true },
+  { "method": "get", "page": "https://proapteka.ru", "useBrowser": true },
+  { "method": "get", "page": "https://medaboutme.ru", "useBrowser": true },
+  { "method": "get", "page": "https://24stoma.ru", "useBrowser": true },
+  { "method": "get", "page": "https://proapteka.ru", "useBrowser": true },
   {
     "method": "dns",
     "host": "213.59.253.4",
