@@ -16,7 +16,7 @@ test('sites', () => {
     .forEach((x) => expect(x).toEqual({ method: 'dns', host: expect.any(String), port: expect.any(Number) }))
 
   sites
-    .filter((x) => x.method === 'dns' && typeof x.targets === 'undefined')
+    .filter((x) => x.method === 'dns' && typeof x.targets !== 'undefined')
     .forEach((x) => {
       expect(x).toEqual({ method: 'dns', host: expect.any(String), port: expect.any(Number), targets: expect.any(Array) })
       x.targets.forEach((t) => expect(typeof t).toEqual('string'))
